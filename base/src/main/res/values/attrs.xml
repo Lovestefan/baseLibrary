@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomBottomSheetBehavior">
+        <attr name="anchorPoint" format="dimension"/>
+        <attr name="defaultState" format="enum">
+            <enum name="stateAnchorPoint" value="3" />
+            <enum name="stateExpanded" value="4"/>
+            <enum name="stateCollapsed" value="5"/>
+            <enum name="stateHidden" value="6"/>
+        </attr>
+    </declare-styleable>
+
+    <!--************ QMUILoading ***********-->
+    <declare-styleable name="QMUILoadingView">
+        <attr name="qmui_loading_view_size" format="dimension" />
+        <attr name="android:color" />
+    </declare-styleable>
+    <attr name="QMUILoadingStyle" format="reference" />
+    <!-- QMUIProgressBar start -->
+    <declare-styleable name="QMUIProgressBar">
+        <attr name="qmui_type" format="enum">
+            <enum name="type_rect" value="0"/>
+            <enum name="type_circle" value="1"/>
+        </attr>
+        <attr name="qmui_progress_color" format="color"/>
+        <attr name="qmui_background_color" format="color"/>
+        <attr name="qmui_max_value" format="integer"/>
+        <attr name="qmui_value" format="integer"/>
+        <attr name="qmui_stroke_width" format="dimension"/>
+        <attr name="qmui_stroke_round_cap" format="boolean"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+    </declare-styleable>
+    <!-- QMUIProgressBar end -->
+</resources>

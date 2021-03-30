@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="common_rect_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="common_rect_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="common_rect_horizontal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="common_rect_vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="common_rect_zero_horizontal">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="common_rect_zero">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="common_rect_zero_vertical">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="common_recycler_vertical" parent="common_rect_vertical">
+        <item name="android:overScrollMode">never</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="common_recycler_wrap" parent="common_rect_wrap">
+        <item name="android:overScrollMode">never</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="common_recycler_match" parent="common_rect_match">
+        <item name="android:overScrollMode">never</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="common_textView" parent="common_rect_wrap">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="common_textView_black_big" parent="common_textView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">--</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="common_textView_white_tiny" parent="common_textView_black_big">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="common_textView_white_small" parent="common_textView_black_big">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="common_textView_white" parent="common_textView_black_big">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="common_wrap_divider" parent="common_rect_vertical">
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/divider_color</item>
+    </style>
+
+    <style name="TransTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
+    </style>
+    <!--toolbar字体颜色大小-->
+    <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:actionMenuTextColor">@color/colorPrimary</item>
+        <item name="android:textSize">16dp</item>
+
+    </style>
+</resources>

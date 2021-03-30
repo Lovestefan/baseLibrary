@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/common_rect_vertical"
+    android:id="@+id/toolBarCl"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/white"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="@style/TransTheme">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        style="@style/common_rect_match"
+        android:theme="@style/AppTheme.ActionBar"
+        android:background="?attr/actionBarItemBackground"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.ActionMenuView
+            android:id="@+id/actionMenu"
+            style="@style/common_rect_horizontal">
+            </androidx.appcompat.widget.ActionMenuView>
+
+        <TextView
+            android:id="@+id/tvBarCenterTitle"
+            style="@style/common_textView_black_big"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+    <View
+        style="@style/common_wrap_divider"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

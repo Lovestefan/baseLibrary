@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#627d94</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="divider_color">#f5f5f5</color>
+
+    <color name="Color_T1">#F0F5FF</color><!--用于辅助、次要的文字信息、导航栏描边、按钮-->
+    <color name="Color_T2">#979CAD</color> <!--二级文字标签-->
+    <color name="Color_T3">#FF5656</color><!--醒目字体-->
+    <color name="Color_TW">#FFFFFF</color><!--用于反白文字-->
+    <color name="Color_TH">#C8C8D4</color><!--Hint文字-->
+    <color name="Color_Line">#DFD9E6</color><!--用于页面分割线-->
+    <color name="Color_label">#FF9600</color><!--信息标签-->
+    <color name="Color_label_T2">#FFC629</color><!--排名标签-->
+    <color name="Color_label_T3">#7A859E</color><!--信息标签-->
+    <color name="Color_label_T4">#333333</color>
+
+    <!--辅助标签颜色-->
+    <color name="Color_label_T2_bag">#FFF5E4</color>
+    <color name="Color_label_T3_bag">#F0F1F4</color>
+    <color name="Color_label_T4_bag">#F5F5F5</color>
+    <!--shape背景-->
+    <color name="Color_shape_bg">#E3F1FF</color>
+    <color name="Color_shape_1_bg">#F5F6F7</color>
+    <color name="Color_shape_2_bg">#737577</color>
+</resources>

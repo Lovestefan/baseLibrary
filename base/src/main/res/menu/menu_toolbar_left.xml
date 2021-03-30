@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/leftMenu"
+        android:icon="@drawable/back"
+        android:title=""
+        app:showAsAction="always"
+        tools:ignore="AppCompatResource"></item>
+    <item
+        android:id="@+id/actionView"
+        android:title=""
+        app:showAsAction="always" />
+</menu>

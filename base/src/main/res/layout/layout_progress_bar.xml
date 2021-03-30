@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   style="@style/common_rect_wrap"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sdsk.base.widget.dialog.QMUIProgressBar
+        android:id="@+id/circleProgressBar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:qmui_background_color="@color/gray"
+        app:qmui_progress_color="@color/colorPrimary"
+        app:qmui_stroke_width="2dp"
+        app:qmui_type="type_circle"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
